@@ -6,17 +6,20 @@ Holtwood Arena 的组织级配置仓库。组织主页显示在 [`profile/README
 
 ## 分组与检索
 
-GitHub 组织内的仓库是平铺的，分组不靠目录，靠命名与标签表达：
+GitHub 组织内的仓库是平铺的，分组不靠目录，靠命名、标签与组织属性三层表达：
 
 | 层 | 位置 | 约定 |
 |---|---|---|
 | 命名 | 仓库名 | `{赛事}-{年份}-{分组}-{序号}-{题目}`，如 `cann-2026-power-02-pinv` |
 | topics | 仓库 About | 全组织 `arena`；分组 `arena-<group>`；事件 `cann-2026` 等；硬件 `ascend-910b2` / `gpu` / `cpu` |
+| custom properties | 组织 Settings → Repository → Custom properties | `arena_group` / `arena_event` / `arena_status` / `arena_hardware` |
 
 分组取值：`power` `ladder` `challenge` `flagos` `kunpeng` `muse` `race` `infra` `knowledge` `meta`。
 
-topic 检索用 `org:holtwood-arena topic:arena-power`。归档仓仍可修改 topics（实测 2026-11），
-代码与 issue 保持只读。完整分组索引与本地视图维护在私有索引仓，不在本公开页列举。
+topic 检索用 `org:holtwood-arena topic:arena-power`；属性检索在组织 Repositories 页
+搜索框输入 `prop` 选择属性，或直接使用
+`https://github.com/orgs/holtwood-arena/repositories?q=props.arena_group%3Apower`。
+归档仓仍可修改 topics 与属性（实测 2026-11），代码与 issue 保持只读。完整分组索引与本地视图维护在私有索引仓，不在本公开页列举。
 
 ## 维护
 
