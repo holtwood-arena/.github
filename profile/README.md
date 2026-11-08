@@ -28,6 +28,20 @@
 
 私有赛事仓只用于个人与协作团队的赛事记录；公开主页不复制账号、提交记录、榜单快照或未脱敏题面。
 
+## 仓库检索
+
+组织仓库在 GitHub 上平铺展示，分组由命名与元数据表达：
+
+- 命名：`{赛事}-{年份}-{分组}-{序号}-{题目}`
+- 全组织标签 `arena`；分组标签 `arena-power`、`arena-ladder`、`arena-flagos`、
+  `arena-kunpeng`、`arena-muse`、`arena-race`、`arena-infra`、`arena-knowledge`、`arena-meta`
+
+topic 检索示例（只返回当前账号有权限的仓库）：
+
+`https://github.com/search?q=org%3Aholtwood-arena+topic%3Aarena-power&type=repositories`
+
+完整分组索引在私有索引仓维护；本页不列举私有仓库名。
+
 ## 每个赛题仓库包含
 
 - 题面来源与约束

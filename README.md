@@ -4,9 +4,23 @@ Holtwood Arena 的组织级配置仓库。组织主页显示在 [`profile/README
 
 本仓库保持公开，以便组织主页可访问；赛事工作区大多为私有。公开导航只链接已脱敏、可复现的仓库，不复制比赛中的账号、提交记录或私有状态。
 
+## 分组与检索
+
+GitHub 组织内的仓库是平铺的，分组不靠目录，靠三层元数据：
+
+| 层 | 位置 | 约定 |
+|---|---|---|
+| 命名 | 仓库名 | `{赛事}-{年份}-{分组}-{序号}-{题目}`，如 `cann-2026-power-02-pinv` |
+| topics | 仓库 About | 全组织 `arena`；分组 `arena-<group>`；事件 `cann-2026` 等；硬件 `ascend-910b2` / `gpu` / `cpu` |
+
+分组取值：`power` `ladder` `challenge` `flagos` `kunpeng` `muse` `race` `infra` `knowledge` `meta`。
+
+topic 检索用 `org:holtwood-arena topic:arena-power`。归档仓仍可修改 topics（实测 2026-11），
+代码与 issue 保持只读。完整分组索引与本地视图维护在私有索引仓，不在本公开页列举。
+
 ## 维护
 
-- 新增赛题仓库时，在 `profile/README.md` 的命名表中确认前缀
+- 新增赛题仓库时，按下方命名约定确认前缀，并补 `arena` / `arena-<group>` topics
 - 台账与状态只在私有台账仓库维护，公开文档不列举其名称
 - 2026 CANN 三场赛事的 15 个赛题仓已归档；赛后复用层（kit / 台账 / 方法论）为私有
 - 公开仓库必须具备来源、复现命令、证据边界和赛后结论
