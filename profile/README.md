@@ -15,7 +15,7 @@
 |------|------|------|
 | [kunpeng-s2-conv](https://github.com/holtwood-arena/kunpeng-s2-conv) | Kunpeng HPC S2：FP32 2D convolution 优化、基线分析、先验调研与分阶段路线 | public |
 | [kunpeng-s3-openfoam](https://github.com/holtwood-arena/kunpeng-s3-openfoam) | Kunpeng S3：OpenFOAM v2606 `simpleFoam` 性能优化工作区 | public |
-| [race](https://github.com/holtwood-arena/race) | 性能工程竞赛实验室：Speed Demon / 1BRC / PPC / DIMACS / AHC | public |
+| [perf-race-lab](https://github.com/holtwood-arena/perf-race-lab) | 性能工程竞赛实验室：Speed Demon / 1BRC / PPC / DIMACS / AHC | public |
 
 ## 赛事归档结构
 
