@@ -14,7 +14,9 @@ GitHub 组织内的仓库是平铺的，分组不靠目录，靠命名、标签�
 | topics | 仓库 About | 全组织 `arena`；分组 `arena-<group>`；事件 `cann-2026` 等；硬件 `ascend-910b2` / `gpu` / `cpu` |
 | custom properties | 组织 Settings → Repository → Custom properties | `arena_group` / `arena_event` / `arena_status` / `arena_hardware` |
 
-分组取值：`power` `ladder` `challenge` `flagos` `kunpeng` `muse` `race` `infra` `knowledge` `meta`。
+分组取值：CANNJudge 路径为 `power` `ladder` `challenge`（比赛）、`infra` `knowledge`（共享层）、
+`rankwatch`（观测）、`ledger`（台账）；独立赛事为 `flagos` `kunpeng` `muse` `perf-race` `gpumode`
+`tensortonic` `ucup` `chip` `huawei` `amd`；组织级为 `meta`。
 
 topic 检索用 `org:holtwood-arena topic:arena-power`；属性检索在组织 Repositories 页
 搜索框输入 `prop` 选择属性，或直接使用

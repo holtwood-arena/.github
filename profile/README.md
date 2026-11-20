@@ -33,8 +33,8 @@
 组织仓库在 GitHub 上平铺展示，分组由命名与元数据表达：
 
 - 命名：`{赛事}-{年份}-{分组}-{序号}-{题目}`
-- 全组织标签 `arena`；分组标签 `arena-power`、`arena-ladder`、`arena-flagos`、
-  `arena-kunpeng`、`arena-muse`、`arena-race`、`arena-infra`、`arena-knowledge`、`arena-meta`
+- 全组织标签 `arena`；分组标签 `arena-<group>`，如 `arena-power`、`arena-ladder`、
+  `arena-rankwatch`、`arena-ledger`、`arena-flagos`、`arena-huawei`、`arena-meta`
 - 组织级属性：`arena_group`、`arena_event`、`arena_status`、`arena_hardware`
   （组织 Repositories 页搜索框输入 `prop` 过滤）
 
