@@ -10,7 +10,7 @@ GitHub 组织内的仓库是平铺的，分组不靠目录，靠命名、标签�
 
 | 层 | 位置 | 约定 |
 |---|---|---|
-| 命名 | 仓库名 | `{赛事}-{年份}-{分组}-{序号}-{题目}`，如 `cann-2026-power-02-pinv` |
+| 命名 | 仓库名 | `{赛事}-{年份}-{分组}-{序号}-{题目}`，如 `kunpeng-s2-conv` |
 | topics | 仓库 About | 全组织 `arena`；分组 `arena-<group>`；事件 `cann-2026` 等；硬件 `ascend-910b2` / `gpu` / `cpu` |
 | custom properties | 组织 Settings → Repository → Custom properties | `arena_group` / `arena_event` / `arena_status` / `arena_hardware` |
 
@@ -32,4 +32,4 @@ topic 检索用 `org:holtwood-arena topic:arena-power`；属性检索在组织 R
 
 ## 代理入口维护
 
-本仓工作入口是 `AGENTS.md`，`CLAUDE.md` 导入同一正文。此处规则不会自动被其它仓库继承；各仓保留自己的项目入口。通用技术技能在 `agent-skills-kit` 维护并按固定版本发布，设备共用协议在 `cann-shared-infra` 维护和下发，题目状态留在 `arena-ledger`。更新前盘点组织仓库，更新后分别核对生成块、技能哈希与链接；公开导航不复制比赛中的私有状态。
+本仓工作入口是 `AGENTS.md`，`CLAUDE.md` 导入同一正文。此处规则不会自动被其它仓库继承；各仓保留自己的项目入口。通用技术技能由私有工具集仓维护并按固定版本发布，设备共用协议由私有基础设施仓维护和下发，题目状态留在私有台账仓（名称不在此列举）。更新前盘点组织仓库，更新后分别核对生成块、技能哈希与链接；公开导航不复制比赛中的私有状态。

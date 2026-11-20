@@ -33,16 +33,17 @@
 组织仓库在 GitHub 上平铺展示，分组由命名与元数据表达：
 
 - 命名：`{赛事}-{年份}-{分组}-{序号}-{题目}`
-- 全组织标签 `arena`；分组标签 `arena-<group>`，如 `arena-power`、`arena-ladder`、
-  `arena-rankwatch`、`arena-ledger`、`arena-flagos`、`arena-huawei`、`arena-meta`
+- 全组织标签 `arena`；分组标签 `arena-<group>`，如 `arena-perf-race`、`arena-kunpeng`、
+  `arena-gpumode`、`arena-tensortonic`、`arena-meta`
+- 已结束赛事的赛题仓转归档；分组标签只在有公开仓库时出现，不预先占位
 - 组织级属性：`arena_group`、`arena_event`、`arena_status`、`arena_hardware`
   （组织 Repositories 页搜索框输入 `prop` 过滤）
 
 topic 检索示例（只返回当前账号有权限的仓库）：
 
-`https://github.com/search?q=org%3Aholtwood-arena+topic%3Aarena-power&type=repositories`
+`https://github.com/search?q=org%3Aholtwood-arena+topic%3Aarena-kunpeng&type=repositories`
 
-属性检索示例：`https://github.com/orgs/holtwood-arena/repositories?q=props.arena_group%3Apower`
+属性检索示例：`https://github.com/orgs/holtwood-arena/repositories?q=props.arena_group%3Akunpeng`
 
 完整分组索引在私有索引仓维护；本页不列举私有仓库名。
 
